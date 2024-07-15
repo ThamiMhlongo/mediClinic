@@ -8,8 +8,8 @@ jobs:
     
         steps:
         - name: Checkout
-          uses: actions/checkout@v3
+          uses: actions/checkout@v4
         - name: Run Cypress test
-          uses: cypress-io/github-action@v5
+          uses: cypress-io/github-action@v6
           with:
-            node-version: 16
+            node-version: 20
