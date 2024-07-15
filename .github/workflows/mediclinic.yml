@@ -12,4 +12,4 @@ jobs:
         - name: Run Cypress test
           uses: cypress-io/github-action@v5
           with:
-            node-version: 20.12
+            node-version: 16
